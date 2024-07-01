@@ -1,5 +1,3 @@
-Here's the updated README file with the plaintext block ending after the project structure:
-
 ### README.md
 
 ```markdown
@@ -44,12 +42,6 @@ The FashionMNIST dataset is used for training machine learning and computer visi
 - torchvision
 - matplotlib
 
-Install the required packages using:
-```sh
-pip install -r requirements.txt
-```
-
-## Usage
 
 ### Training
 
@@ -77,9 +69,3 @@ The CNN model consists of three convolutional layers, each followed by batch nor
 
 The model achieves an accuracy of approximately 92.42% on the test set. Individual class accuracies are also reported.
 
-## License
-
-This project is licensed under the MIT License.
-```
-
-This README provides a clear and structured overview of the project, dataset, requirements, usage, model architecture, results, and license information.
