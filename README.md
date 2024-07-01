@@ -42,21 +42,6 @@ The FashionMNIST dataset is used for training machine learning and computer visi
 - torchvision
 - matplotlib
 
-
-### Training
-
-To train the model, run:
-```sh
-python src/train.py
-```
-
-### Testing
-
-To test the model, run:
-```sh
-python src/test.py
-```
-
 ### Plotting Loss
 
 The training script will plot the training and validation losses over epochs.
