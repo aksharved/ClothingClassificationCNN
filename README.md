@@ -1,15 +1,15 @@
-# FashionMNIST-CNN
+# ClothingClassificationCNN
 
-This project implements a Convolutional Neural Network (CNN) for classifying images in the FashionMNIST dataset. The network is trained using PyTorch and includes data augmentation, batch normalization, and dropout for regularization. It has an accuracy of 92.42%. 
+This repository contains a Convolutional Neural Network (CNN) implementation for classifying images in the FashionMNIST dataset using PyTorch. It has an accuracy of 92.42%. The project includes data augmentation, batch normalization, and dropout for improved performance and generalization. It provides scripts for training, testing, and visualizing the model's performance.
 
 ## Project Structure
 
 ```plaintext
-FashionMNIST-CNN/
+ClothingClassificationCNN/
 ├── models/                          # Directory to save and load models
-├── train.py                         # Script for training the model
-├── test.py                          # Script for testing the model
-├── model.py                         # Definition of the CNN model
-├── utils.py                         # Utility functions (plotting, etc.)
+├── src/
+│   ├── model.py                     # Definition of the CNN model
+│   ├── plotting.py                  # Script for plotting training and validation losses
+│   ├── test.py                      # Script for testing the model
+│   ├── train.py                     # Script for training the model
 ├── README.md                        # Readme file for the project
-├── requirements.txt                 # List of dependencies
